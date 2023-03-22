@@ -7,3 +7,13 @@
 a {
     text-decoration: none;
 }
+
+
+/* Regole header */
+
+
+header{
+    background-color: hsl(27.91deg 88.75% 48.15%);
+    width: 100%;
+    height: 8%;
+}
