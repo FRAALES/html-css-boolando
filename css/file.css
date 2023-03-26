@@ -97,6 +97,7 @@ main{
 .label{
     background-color: red;
     color: white;
+    font-size: 10px;
     padding: 5px;
     position: absolute;
     top: 350px;
@@ -106,6 +107,7 @@ main{
 .sostenibilita{
     background-color: green;
     color: white;
+    font-size: 10px;
     padding: 5px;
     position: absolute;
     top: 350px;
@@ -129,6 +131,24 @@ main{
 }
 
 
+/* Regole Display:none */
+
+.display-none{
+    display: none;
+}
+
+.col:hover .display-none{
+    display: inline-block;
+}
+
+.col:hover .display{
+    display: none;
+}
+
+
+
+/* Regole Footer */
+
 .boolando{
     color: white;
     font-size: 10px;
@@ -137,5 +157,4 @@ main{
     margin-top: 20px;
     position: absolute;
     left: 200px;
-
 }
